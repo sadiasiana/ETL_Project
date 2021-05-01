@@ -40,17 +40,18 @@ This dataset contains information on country names, populations, regions, area s
 ## Transformation (Data Cleaning)
 Once we were able to create dataframes of our streaming services and countries of the world, we cleaned each dataframe individually. We needed to determine data integrity and interpret the data. This included dropring null/blank values, renaming titles, and removing rows when necessary. 
 
-Code for this can be seen here and also in the respectful python notebooks: (TWO MISSING PICS)
+Code for this can be seen here and also in the respectful python notebooks: ![New Note](https://user-images.githubusercontent.com/78834635/116783581-75cd4780-aa5d-11eb-9fe2-ae9a6909c086.jpeg)
+
+![New Note-1](https://user-images.githubusercontent.com/78834635/116783588-8251a000-aa5d-11eb-98ac-72a96cca0909.jpeg)
+
 
 ## Loading
 We used the transformed dataframes and merged the data using pandas. We merged the Hulu, Disney+, and Prime Video columns (from the Multiple Streaming Services dataset) onto the Netflix dataset. Thus, finally creating the completed dataframe. 
 
-A snippet of the loaded merged dataframe is included here: OICTURE
+A snippet of the loaded merged dataframe is included here: ![New Note-2](https://user-images.githubusercontent.com/78834635/116783630-be850080-aa5d-11eb-9808-d0c890d0c605.jpeg)
+
 
 We then created a connection to the database (postgresql) using pandas with our newly merged dataframe. 
 
 A snippet is included here: <img width="798" alt="Screen Shot 2021-05-01 at 3 35 49 AM" src="https://user-images.githubusercontent.com/78834635/116783404-98129580-aa5c-11eb-975e-da2dc78714fa.png">
-
-
-
 
