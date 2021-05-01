@@ -45,11 +45,12 @@ Code for this can be seen here and also in the respectful python notebooks: (TWO
 ## Loading
 We used the transformed dataframes and merged the data using pandas. We merged the Hulu, Disney+, and Prime Video columns (from the Multiple Streaming Services dataset) onto the Netflix dataset. Thus, finally creating the completed dataframe. 
 
-A snippet of the loaded merged dataframe is included here: (ONE MISSING PIC)
+A snippet of the loaded merged dataframe is included here: OICTURE
 
 We then created a connection to the database (postgresql) using pandas with our newly merged dataframe. 
 
-A snippet is included here: (ONE MISSING PIC)
+A snippet is included here: <img width="798" alt="Screen Shot 2021-05-01 at 3 35 49 AM" src="https://user-images.githubusercontent.com/78834635/116783404-98129580-aa5c-11eb-975e-da2dc78714fa.png">
+
 
 
 
