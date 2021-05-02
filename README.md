@@ -55,3 +55,23 @@ We then created a connection to the database (postgresql) using pandas with our 
 
 A snippet is included here: <img width="798" alt="Screen Shot 2021-05-01 at 3 35 49 AM" src="https://user-images.githubusercontent.com/78834635/116783404-98129580-aa5c-11eb-975e-da2dc78714fa.png">
 
+We then created a connection to the database (postgresql) using pandas with our newly merged dataframe. 
+
+A snippet is included here: ![connect_to_load_netflix](https://user-images.githubusercontent.com/78834635/116799448-68e53e00-aac7-11eb-9550-7b98e17ca08b.png)
+
+We also created a ETL process to extract and load countries to the database: ![Import_Countries](https://user-images.githubusercontent.com/78834635/116799455-7f8b9500-aac7-11eb-9d96-094a38af8321.png)
+
+Creating the database as follows: ![Design_Database](https://user-images.githubusercontent.com/78834635/116799461-8e724780-aac7-11eb-9552-82f776fcb3b1.png)
+
+
+The script used to create tables into a database motor was: ![Script_Create_Table](https://user-images.githubusercontent.com/78834635/116799466-9c27cd00-aac7-11eb-95a2-8783eee93074.png)
+
+Screenshots of loaded data: ![Netflix_table](https://user-images.githubusercontent.com/78834635/116799474-aba71600-aac7-11eb-9445-400b314fe67b.png)
+
+![Table_countries](https://user-images.githubusercontent.com/78834635/116799477-b661ab00-aac7-11eb-8c20-9d954aefe4e1.png)
+
+
+
+
+
+
